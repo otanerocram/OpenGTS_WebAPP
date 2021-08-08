@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Dosis:200,300,400,500,600,700,800|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+body{
+	margin: 0px;
+}
+
+/* system.php */
+#map{
+	width: 100%;
+	background-color: black;
+}
+
+#welcomeNavbar{
+	padding-top: 10px;
+	height: 30px; /* Se debe restar esta cantidad para la altura del mapa*/
+	vertical-align: middle;
+	text-align: center;
+	font-family: "Open Sans" !important;
+	font-weight: 300;
+	font-size: 10pt;
+	background-color: #465967;
+	text-decoration: none !important;
+	text-transform: none;
+	text-shadow:none;
+	color: #fff;
+}
+
+.ui-panel-inner{
+	padding: 0px;
+	background-color: #061838;
+}
+
+#menuList{
+	text-align: center;
+}
+
+#logoImage{
+	padding-bottom: 20px !important;
+	border-bottom: 2px #DF4141 solid;
+}
+
+li{
+	cursor: pointer;
+}
+
+.txtDirections{
+	font-size: 10pt;
+
+}
+
+.noPadding{
+    padding:        0px !important;
+    margin:         0px !important;
+}
+.siPad{
+    padding-left:   5px;
+    margin-left:    10px;
+    padding-right:  10px;
+    padding-top:    10px;
+    padding-bottom: 10px;
+}
+.blueBg{
+    background-color: #214E80 !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    font-family: "Open Sans" !important;
+    text-shadow: none !important;
+    font-size: 12px !important;
+    height: 17px;
+    border-radius: 5px;
+    vertical-align: middle;;
+	max-width: 130px;
+}
+.greenBg{
+    background-color: #568F0D !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    font-family: "Open Sans" !important;
+    text-shadow: none !important;
+    font-size: 12px !important;
+    height: 17px;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: center;
+	max-width: 130px;
+}
+.redBg{
+    background-color: #D61616 !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    font-family: "Open Sans" !important;
+    text-shadow: none !important;
+    font-size: 12px !important;
+    height: 17px;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: center;
+	max-width: 130px;
+}
+.grayBg{
+    background-color: #7E7F81 !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    font-family: "Open Sans" !important;
+    text-shadow: none !important;
+    font-size: 12px !important;
+    text-align: center;
+    height: 17px;
+    border-radius: 5px;
+    vertical-align: middle;
+	max-width: 130px;
+	
+}
+
+.listaTitulo{
+	font-family: "Open Sans" !important;
+	font-size: 13px !important;
+	font-weight: bold;
+	cursor: pointer;
+	color: #3686be;
+}
+.listaFecha{
+	font-family: "Open Sans" !important;
+	font-size: 12px !important;
+	font-weight: bold;
+	min-height: 12px;
+}
+
+/* getFleetDevices.php */
+#alertContainer{
+	background-color: black;
+	margin:0px;
+	padding: 0px;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+
+}
+#alertMessage{
+	color: yellow;
+	font-family: "Verdana";
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	width:50%;
+	top:50%;
+	left:25%;
+}
+
+.deviceTitle{
+	font-family: "Source Sans Pro", Tahoma, Geneva;
+	font-size: 16px;
+	font-weight: bold;
+	color: #193190;
+}
+
+.devScrl{
+	width: 100%;
+	overflow-y: scroll;
+}
+
+.deviceTitleList{
+	text-align: center;
+    padding: 10px 0px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #ff002f;
+    text-shadow: none;
+    font-family: "Open Sans";
+}
+

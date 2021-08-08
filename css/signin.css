@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Dosis:200,300,400,500,600,700,800|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+html, body {
+    height:100%;
+} 
+
+html{
+  background: url(../images/fondo_login.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: transparent;
+  font-family: "Open Sans" !important;
+}
+
+.form-signin {
+  max-width: 280px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.poweredBy{
+  color: #6F5A5A;
+  text-align: center;
+  font-family: "Open Sans" !important;
+  font-size: 9pt;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 10px;
+  font-size: 18px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="password"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    text-align: center;
+    background-color: #fff;
+}
+.form-signin input[type="text"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.form-logo{
+    margin-bottom: 5px;
+    max-width: 200px;
+    text-align: center;
+}
+
+#WhatsApp{
+    position: absolute;
+    bottom:10px;
+}
